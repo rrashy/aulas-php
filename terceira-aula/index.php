@@ -13,4 +13,5 @@
 
     // Apostrofo identifica como texto assim tendo de fazer uma concatenação de forma especifica
     echo '<br> Cidade: '.$cidade
+        
 ?>
