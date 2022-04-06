@@ -4,3 +4,10 @@
 <h4 align="center"> 
 	🚧  PHP 🚀 Em construção...  🚧
 </h4>
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+- [PHP 8.1]
+- [XAMPP]
+- [PHPSTORM]
+- [VSCODE]
