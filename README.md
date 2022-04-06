@@ -2,7 +2,7 @@
 
 <p align="center">Exercicios das aulas com a Profª Rita no modulo de Desenvolvimento Web II</p>
 <h4 align="center"> 
-	🚧 PHP Projetos classe 🚀 Em construção...  🚧
+	🚧 PHP Projetos da classe 🚀 Em construção...  🚧
 </h4>
 <h3 align="center">
     🛠 Tecnologias
