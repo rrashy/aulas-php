@@ -2,14 +2,13 @@
 
 <p align="center">Exercicios das aulas com a Profª Rita no modulo de Desenvolvimento Web II</p>
 <h4 align="center"> 
-	🚧 PHP Projetos da classe 🚀 Em construção...  🚧
+	🚧 PHP Projetos classe 🚀 Em construção...  🚧
 </h4>
 <h3 align="center">
     🛠 Tecnologias
 </h3>
 
-<p align="center">
-As seguintes ferramentas foram usadas na construção do projeto:<p>
+## As seguintes ferramentas foram usadas na construção do projeto:
 - [PHP 8.1]
 - [XAMPP]
 - [PHPSTORM]
