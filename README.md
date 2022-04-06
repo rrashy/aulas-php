@@ -4,7 +4,7 @@
 <h4 align="center"> 
 	🚧 PHP Projetos classe 🚀 Em construção...  🚧
 </h4>
-## 
+<hr>
 <h3 align="center">
     🛠 Tecnologias
 </h3>
