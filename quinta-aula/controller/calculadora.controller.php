@@ -16,13 +16,13 @@
         $calc->setValor1(10);
         $calc->setValor2(2);
 
-        echo '<br><h2>Resultados</h2>'
-        .'<br><p>Valor 1: '.$calc->getValor1()
+        echo '<h2>Resultados</h2>'
+        .'<p>Valor 1: '.$calc->getValor1()
         .'<br>Valor 2: '.$calc->getValor2()
-        .'<br>Soma: '.$calc->somar()
-        .'<br>Subtração: '.$calc->subtrair()
-        .'<br>Divisão: '.$calc->dividir()
-        .'<br>Multiplicação: '.$calc->multiplicar().'</p>';
+        .'<br>Soma entre 10 e 2: '.$calc->somar()
+        .'<br>Subtração entre 10 e 2: '.$calc->subtrair()
+        .'<br>Divisão entre 10 e 2: '.$calc->dividir()
+        .'<br>Multiplicação entre 10 e 2: '.$calc->multiplicar().'</p>';
     ?>
     <br>
     <a href="../index.php">

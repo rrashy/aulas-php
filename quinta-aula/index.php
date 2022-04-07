@@ -8,11 +8,16 @@
 </head>
 <body>
 
-    <h1>Calculadora Teste</h1>
-    <br>  <!--Nova linha-->
+    <h1>Operações matemáticas</h1>
     <br>
     <a href="controller/calculadora.controller.php">
-        <button>Calculadora</button>
+        <button>Calculadora basica</button>
     </a>
+    <br>
+    <br>
+    <a href="controller/condominio.controller.php">
+        <button>Calculadora porcentagem</button>
+    </a>
+
 </body>
 </html>
