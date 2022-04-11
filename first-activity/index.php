@@ -14,10 +14,10 @@
             <h3 class="card-title"><strong>Escolha qual calculo você deseja fazer:</strong></h3>
             <hr>
             <p class="card-text"><strong>Está operação é para calcular total do salário:</strong></p>
-            <a href="../first-activity/controller/response.salario.php" class="btn btn-primary">Calcular salário</a>
+            <a href="./controller/response.salario.php" class="btn btn-primary">Calcular salário</a>
             <hr>
             <p class="card-text"><strong>Está operação é para calcular total do ingresso:</strong></p>
-            <a href="../first-activity/controller/response.movie.php" class="btn btn-primary">Calcular cinema</a>
+            <a href="/controller/response.movie.php" class="btn btn-primary">Calcular cinema</a>
         </div>
     </div>
 </main>
