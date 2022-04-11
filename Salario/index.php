@@ -27,12 +27,12 @@
             $total = $salario->getValorVendas() * $salario->getComissao();
             $totalComissao = $total + $salario->getSalarioFixo();
 
-                echo "<strong>Olá tudo bem? Seja bem-vindo ".$salario->getName()."!</strong>";
+                echo "<strong>Olá, tudo bem? Seja bem-vindo ".$salario->getName()."!</strong>";
                 echo "<br>Valor do salário: R$".$salario->getSalarioFixo();
-                echo "<br>Quantidade de ingresso: ".$salario->getValorVendas();
+                echo "<br>Valor total de vendas: R$".$salario->getValorVendas();
                 echo "<br>Comissao: ".$salario->getComissao()."%";
                 echo "<hr>";
-                echo "<p><strong>Valor total da compra sera de: R$".$totalComissao."</strong></p>";
+                echo "<p><strong>Valor total a receber de salário: R$".$totalComissao."</strong></p>";
             ?>
             <a href="" class="btn btn-primary">Confirmar</a>
         </div>
