@@ -14,12 +14,12 @@
         <div class="center-align white-text container">
             <?php
 
-            include "../model/CalcPositiveOrNegative.class.php";
+            include "../model/CalcVerificate.class.php";
 
-            $calc = new CalcPositiveOrNegative;
+            $calc = new CalcVerificate;
 
             $calc->setValorInput($_POST['num']);
-            $calc->negOrPos();
+            echo "<h1>" . $calc->verificadorNum() . "</h1>";
 
             ?>
             <br>

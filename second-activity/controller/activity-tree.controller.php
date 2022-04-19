@@ -13,24 +13,32 @@
     <main>
         <div class="center-align white-text container">
             <form name="calcform3" action="../controller/activity-tree.controller.php" method="post">
-                <h1>Calculadora idade</h1>
-                <h4>Abaixo digite uma idade abaixo:</h4>
-                <div class="input-field col s6">
-                    <input placeholder="Digite sua idade" name="num" id="num" type="number" class="validate white-text" min="1" max="100">
+                <h1>Resuldado da idade</h1>
+                <?php
 
-                    <a>
-                        <button class="waves-effect waves-light btn indigo darken-1" value="verificar" type="submit">
-                            <i>Calcular</i>
-                        </button>
-                    </a>
-                    <a>
-                        <button class="waves-effect waves-light btn indigo darken-1" value="voltar" onclick="history.go(-1)">
-                            <i>Voltar</i>
-                        </button>
-                    </a>
+                include "../model/CalcConvertOldder.class.php";
 
-                </div>
-            </form>
+                $calc = new CalcOldder;
+
+                $calc->setIdade($_POST['num']);
+
+                echo "<h4>" . $calc->__toString() . "</h4>";
+
+                ?>
+                <br>
+                <a>
+                    <button class="waves-effect waves-light btn indigo darken-1" value="voltar" onclick="history.go(-1)">
+                        <i>Voltar</i>
+                    </button>
+                </a>
+                <a>
+                    <button class="waves-effect waves-light btn indigo darken-1" value="voltar" onclick="history.go(-2)">
+                        <i>Voltar menu inicial</i>
+                    </button>
+                </a>
+
+        </div>
+        </form>
         </div>
     </main>
     <br>
