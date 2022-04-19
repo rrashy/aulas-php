@@ -7,6 +7,12 @@
     private $escolaridade;
     private $curso;
 
+    // construtor vazio - (?)
+    function __construct()
+    {
+        
+    }
+
 
     public function getNome()
     {
@@ -50,6 +56,19 @@
     public function setCurso($curso)
     {
         $this->curso = $curso;
+    }
+
+    function calcIdade(){
+        return $this->idade * 12;
+    }
+
+    function __toString()
+    {
+        return nl2br(
+            "nome: $this->nome
+             idade: $this->nome
+             idade em meses: {$this->calcIdade()}"
+        );
     }
 }
 
